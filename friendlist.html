@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>List</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<style>
+	.body{
+		font-family: 'Roboto', sans-serif;
+	}
+	.card{
+		background-color: #fdfdfd;
+		border-radius: 15px;
+		box-shadow: 1px 1px 5px rgba(180,180,180,150);
+		margin:25px;
+		min-height:80px;
+	}
+	.flex-vcenter{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-content: flex-start;
+		align-items: center;
+	}
+	.profile-picture{
+		height:128px;
+		margin: 32px;
+	}
+	.title{
+		font-family: 'Roboto', sans-serif;
+	}
+	.name{
+		font-size: 2em;
+	}
+	.chat-icon{
+		margin-left: auto;
+		margin-right: 48px;
+		height: 64px;
+	}
+</style>
+</head>
+<body>
+	<div class="card flex-vcenter">
+		<img src="http://www.romeoonisim.com/assets/images/circular-profile.png" class="profile-picture">
+		<div class="title">
+			<p><span class="name">Romeo Onisim</span></p>
+			<p><span class="detail">Web Developer</span></p>
+		</div>
+		<img src="http://img.talkandroid.com/uploads/2015/07/hello-sms-app-logo.png" class="chat-icon">
+	</div>
+</body>
+</html>
